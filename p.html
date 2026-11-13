@@ -1,0 +1,1907 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blood Donor Finder</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fff5f5;
+            text-align: center;
+        }
+
+        .welcome {
+            padding: 80px 20px;
+        }
+
+        .logo {
+            font-size: 100px;
+        }
+
+        h1 {
+            color: #c62828;
+            font-size: 40px;
+        }
+
+        p {
+            color: #555;
+            font-size: 20px;
+        }
+
+        button {
+            background: #c62828;
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #8e0000;
+        }
+
+        footer {
+            background: #c62828;
+            color: white;
+            padding: 15px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="welcome">
+
+        <div class="logo">🩸</div>
+
+        <h1>Blood Donor Finder</h1>
+
+        <p>Donate Blood, Save Lives</p>
+
+        <p>
+            Welcome to Blood Donor Finder.
+            Help people by connecting with blood donors.
+        </p>
+
+        <button onclick="location.href='page2.html'">
+            Get Started →
+        </button>
+
+    </div>
+
+    <footer>
+        Blood Donor Finder | Tamil Nadu
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Introduction - Blood Donor Finder</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fff5f5;
+        }
+
+        header {
+            background: #c62828;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            padding: 30px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #c62828;
+        }
+
+        .topic {
+            background: white;
+            padding: 20px;
+            margin: 15px auto;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #ddd;
+            cursor: pointer;
+        }
+
+        .topic h3 {
+            color: #c62828;
+        }
+
+        .details {
+            display: none;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        button {
+            background: #c62828;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        button:hover {
+            background: #8e0000;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Blood Donor Finder</h1>
+    <p>Introduction to Blood Donation</p>
+</header>
+
+<div class="container">
+
+    <h2>About Blood Donation</h2>
+
+    <div class="topic" onclick="showDetails('one')">
+        <h3>1. What is Blood Donation?</h3>
+        <p id="one" class="details">
+            Blood donation is the process of voluntarily giving
+            blood to help patients who need blood during medical
+            treatment, surgery or emergencies.
+        </p>
+    </div>
+
+    <div class="topic" onclick="showDetails('two')">
+        <h3>2. Importance of Blood Donation</h3>
+        <p id="two" class="details">
+            Blood donation helps save lives. Donated blood is
+            used in hospitals for patients who need transfusions.
+        </p>
+    </div>
+
+    <div class="topic" onclick="showDetails('three')">
+        <h3>3. Benefits of Blood Donation</h3>
+        <p id="three" class="details">
+            Blood donation supports community healthcare and
+            helps maintain an adequate blood supply for patients.
+        </p>
+    </div>
+
+    <div class="topic" onclick="showDetails('four')">
+        <h3>4. Why is Blood Donation Needed?</h3>
+        <p id="four" class="details">
+            Blood is needed for accident victims, surgeries,
+            cancer treatments and people with certain blood disorders.
+        </p>
+    </div>
+
+    <button onclick="location.href='index.html'">← Back</button>
+
+    <button onclick="location.href='page3.html'">Next →</button>
+
+</div>
+
+<script>
+    function showDetails(id) {
+        let element = document.getElementById(id);
+
+        if (element.style.display === "block") {
+            element.style.display = "none";
+        } else {
+            element.style.display = "block";
+        }
+    }
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Uses of Blood - Blood Donor Finder</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fff5f5;
+        }
+
+        header {
+            background: #c62828;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            padding: 25px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #c62828;
+        }
+
+        .topic {
+            background: white;
+            padding: 20px;
+            margin: 15px auto;
+            max-width: 650px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #ddd;
+            cursor: pointer;
+        }
+
+        .topic h3 {
+            color: #c62828;
+        }
+
+        .details {
+            display: none;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        button {
+            background: #c62828;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 6px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #8e0000;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Blood Donor Finder</h1>
+    <p>Uses of Donated Blood</p>
+</header>
+
+<div class="container">
+
+    <h2>Where is Donated Blood Used?</h2>
+
+    <div class="topic" onclick="showDetails('one')">
+        <h3>1. Accident Patients</h3>
+        <p id="one" class="details">
+            Accident victims may lose a large amount of blood.
+            Blood transfusions can help replace the lost blood
+            and support their medical treatment.
+        </p>
+    </div>
+
+    <div class="topic" onclick="showDetails('two')">
+        <h3>2. Surgery Patients</h3>
+        <p id="two" class="details">
+            Some patients need blood during or after major
+            surgeries to replace blood lost during the operation.
+        </p>
+    </div>
+
+    <div class="topic" onclick="showDetails('three')">
+        <h3>3. Cancer Patients</h3>
+        <p id="three" class="details">
+            Some cancer patients need blood or platelet
+            transfusions during their treatment.
+        </p>
+    </div>
+
+    <div class="topic" onclick="showDetails('four')">
+        <h3>4. Pregnant Women</h3>
+        <p id="four" class="details">
+            Women who experience serious blood loss during
+            childbirth may require a blood transfusion.
+        </p>
+    </div>
+
+    <div class="topic" onclick="showDetails('five')">
+        <h3>5. Blood Disorder Patients</h3>
+        <p id="five" class="details">
+            Patients with certain blood disorders, such as
+            thalassemia, may need regular blood transfusions
+            as part of their treatment.
+        </p>
+    </div>
+
+    <button onclick="location.href='page2.html'">
+        ← Back
+    </button>
+
+    <button onclick="location.href='page4.html'">
+        Next →
+    </button>
+
+</div>
+
+<script>
+    function showDetails(id) {
+        let element = document.getElementById(id);
+
+        if (element.style.display === "block") {
+            element.style.display = "none";
+        } else {
+            element.style.display = "block";
+        }
+    }
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blood Donor Finder - Page 4</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fff5f5;
+    color: #333;
+}
+
+header {
+    background: #c62828;
+    color: white;
+    text-align: center;
+    padding: 22px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.menu button {
+    background: #c62828;
+    color: white;
+    border: none;
+    padding: 13px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.menu button:hover {
+    background: #8e0000;
+}
+
+.section {
+    display: none;
+    background: white;
+    padding: 22px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+.section h2 {
+    color: #c62828;
+}
+
+.section.active {
+    display: block;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.hospital-card {
+    border: 1px solid #e0b0b0;
+    border-left: 5px solid #c62828;
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 7px;
+    cursor: pointer;
+    background: #fffafa;
+}
+
+.hospital-card:hover {
+    background: #ffe5e5;
+}
+
+.details {
+    display: none;
+    background: #fff0f0;
+    padding: 13px;
+    margin-top: 10px;
+    border-radius: 6px;
+    cursor: default;
+}
+
+.details.show {
+    display: block;
+}
+
+.info-card {
+    background: #fffafa;
+    border: 1px solid #e0b0b0;
+    padding: 18px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+.link-button {
+    display: inline-block;
+    background: #c62828;
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.link-button:hover {
+    background: #8e0000;
+}
+
+.note {
+    background: #fff3cd;
+    padding: 12px;
+    border-radius: 6px;
+    line-height: 1.6;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.navigation button {
+    background: #c62828;
+    color: white;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+footer {
+    text-align: center;
+    background: #c62828;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Blood Donor Finder</h1>
+    <p>Hospitals, Blood Banks and Donation Camps in Tamil Nadu</p>
+</header>
+
+<div class="container">
+
+    <div class="menu">
+        <button onclick="showSection('hospitals')">Hospitals</button>
+        <button onclick="showSection('bloodbanks')">Blood Banks</button>
+        <button onclick="showSection('camps')">Donation Camps</button>
+    </div>
+
+    <!-- HOSPITAL SECTION -->
+    <div id="hospitals" class="section active">
+        <h2>Government Hospitals in Tamil Nadu</h2>
+        <p>Click a hospital name to view its details.</p>
+
+        <input
+            type="text"
+            id="hospitalSearch"
+            placeholder="Search hospital or district..."
+            onkeyup="searchHospitals()"
+        >
+
+        <div id="hospitalList"></div>
+    </div>
+
+    <!-- BLOOD BANK SECTION -->
+    <div id="bloodbanks" class="section">
+        <h2>Blood Bank Availability</h2>
+
+        <div class="info-card">
+            <h3>Check Available Blood Units</h3>
+            <p>
+                Check which registered blood centres have available
+                blood units. You can select Tamil Nadu, district,
+                blood group and blood component on the official portal.
+            </p>
+
+            <a class="link-button"
+               href="https://www.eraktkosh.mohfw.gov.in/BLDAHIMS/bloodbank/stockAvailability.cnt"
+               target="_blank">
+                Check Blood Availability
+            </a>
+        </div>
+
+        <div class="info-card">
+            <h3>Find Blood Banks</h3>
+            <p>
+                Find registered blood centres and check their details
+                through the Government of India's e-RaktKosh portal.
+            </p>
+
+            <a class="link-button"
+               href="https://eraktkosh.mohfw.gov.in/"
+               target="_blank">
+                Open Blood Bank Directory
+            </a>
+        </div>
+
+        <div class="note">
+            <strong>Important:</strong>
+            Blood stock changes frequently. Always check the last
+            updated date and contact the blood bank to confirm
+            availability before visiting.
+        </div>
+    </div>
+
+    <!-- DONATION CAMP SECTION -->
+    <div id="camps" class="section">
+        <h2>Blood Donation Camps</h2>
+
+        <div class="info-card">
+            <h3>Find Upcoming Donation Camps</h3>
+            <p>
+                Search for registered blood donation camps.
+                Select Tamil Nadu and your district on the official
+                e-RaktKosh website to check available camp details.
+            </p>
+
+            <a class="link-button"
+               href="https://eraktkosh.mohfw.gov.in/"
+               target="_blank">
+                Find Donation Camps
+            </a>
+        </div>
+
+        <div class="note">
+            Camp dates and locations may change. Please confirm
+            the camp date, venue and organiser through the official
+            camp information or the organising blood centre.
+        </div>
+    </div>
+
+    <div class="navigation">
+        <button onclick="location.href='page3.html'">
+            ← Back
+        </button>
+
+        <button onclick="location.href='page5.html'">
+            Next →
+        </button>
+    </div>
+
+</div>
+
+<footer>
+    <p>Blood Donor Finder | Tamil Nadu</p>
+</footer>
+
+<script>
+
+// Hospital information
+const hospitals = [
+    {
+        name: "Rajiv Gandhi Government General Hospital",
+        district: "Chennai",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Government Stanley Medical College Hospital",
+        district: "Chennai",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Government Kilpauk Medical College Hospital",
+        district: "Chennai",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Government Medical College Hospital",
+        district: "Chengalpattu",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Coimbatore Medical College Hospital",
+        district: "Coimbatore",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Government Rajaji Hospital",
+        district: "Madurai",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Government Mohan Kumaramangalam Medical College Hospital",
+        district: "Salem",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Mahatma Gandhi Memorial Government Hospital",
+        district: "Tiruchirappalli",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Tirunelveli Medical College Hospital",
+        district: "Tirunelveli",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Thanjavur Medical College Hospital",
+        district: "Thanjavur",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Government Vellore Medical College Hospital",
+        district: "Vellore",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Thoothukudi Medical College Hospital",
+        district: "Thoothukudi",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Theni Medical College Hospital",
+        district: "Theni",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Government Dharmapuri Medical College Hospital",
+        district: "Dharmapuri",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Government Villupuram Medical College Hospital",
+        district: "Villupuram",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Government Medical College Hospital",
+        district: "Tiruvarur",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Government Sivagangai Medical College Hospital",
+        district: "Sivaganga",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Government Medical College Hospital",
+        district: "Tiruvannamalai",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Government Karur Medical College Hospital",
+        district: "Karur",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Government Medical College Hospital",
+        district: "Pudukkottai",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Government Erode Medical College Hospital",
+        district: "Erode",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Government Krishnagiri Medical College Hospital",
+        district: "Krishnagiri",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Government Medical College Hospital",
+        district: "Virudhunagar",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Government Tiruvallur Medical College Hospital",
+        district: "Tiruvallur",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Government Medical College Hospital",
+        district: "Ariyalur",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Government Medical College Hospital",
+        district: "The Nilgiris",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Government Medical College Hospital",
+        district: "Tiruppur",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Government Cuddalore Medical College Hospital",
+        district: "Cuddalore",
+        type: "Government Medical College Hospital"
+    },
+    {
+        name: "Government Medical College Hospital",
+        district: "Kancheepuram",
+        type: "Government Medical College Hospital"
+    }
+];
+
+// Display hospitals
+function displayHospitals(list) {
+    const hospitalList = document.getElementById("hospitalList");
+
+    hospitalList.innerHTML = "";
+
+    if (list.length === 0) {
+        hospitalList.innerHTML = "<p>No matching hospital found.</p>";
+        return;
+    }
+
+    list.forEach(function(hospital) {
+        const card = document.createElement("div");
+        card.className = "hospital-card";
+
+        const heading = document.createElement("h3");
+        heading.textContent = hospital.name;
+
+        const district = document.createElement("p");
+        district.textContent = "District: " + hospital.district;
+
+        const details = document.createElement("div");
+        details.className = "details";
+
+        const type = document.createElement("p");
+        type.textContent = "Hospital Type: " + hospital.type;
+
+        const location = document.createElement("p");
+        location.textContent = "Location: " + hospital.district +
+            ", Tamil Nadu";
+
+        const note = document.createElement("p");
+        note.textContent =
+            "Contact the hospital directly to confirm its blood bank facility, address and current services.";
+
+        details.appendChild(type);
+        details.appendChild(location);
+        details.appendChild(note);
+
+        card.appendChild(heading);
+        card.appendChild(district);
+        card.appendChild(details);
+
+        card.addEventListener("click", function() {
+            details.classList.toggle("show");
+        });
+
+        hospitalList.appendChild(card);
+    });
+}
+
+// Search hospitals
+function searchHospitals() {
+    const searchValue =
+        document.getElementById("hospitalSearch").value.toLowerCase();
+
+    const filteredHospitals = hospitals.filter(function(hospital) {
+        return hospital.name.toLowerCase().includes(searchValue) ||
+               hospital.district.toLowerCase().includes(searchValue);
+    });
+
+    displayHospitals(filteredHospitals);
+}
+
+// Change sections
+function showSection(sectionId) {
+    const sections = document.querySelectorAll(".section");
+
+    sections.forEach(function(section) {
+        section.classList.remove("active");
+    });
+
+    document.getElementById(sectionId).classList.add("active");
+}
+
+// Show hospital list when page opens
+displayHospitals(hospitals);
+
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Donor Eligibility - Blood Donor Finder</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff5f5;
+    margin: 0;
+    color: #333;
+}
+
+header {
+    background: #c62828;
+    color: white;
+    text-align: center;
+    padding: 22px;
+}
+
+.container {
+    width: 90%;
+    max-width: 850px;
+    margin: 25px auto;
+}
+
+h2 {
+    color: #c62828;
+}
+
+.card {
+    background: white;
+    padding: 18px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border-left: 5px solid #c62828;
+    box-shadow: 0 2px 6px #ddd;
+}
+
+.card h3 {
+    color: #c62828;
+}
+
+li {
+    margin: 12px 0;
+    line-height: 1.5;
+}
+
+.note {
+    background: #fff3cd;
+    padding: 15px;
+    border-radius: 7px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+button {
+    background: #c62828;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #8e0000;
+}
+
+footer {
+    background: #c62828;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Donor Eligibility</h1>
+    <p>Blood Donor Finder</p>
+</header>
+
+<div class="container">
+
+    <h2>Who Can Donate Blood?</h2>
+
+    <div class="card">
+        <h3>Basic Eligibility Requirements</h3>
+
+        <ul>
+            <li>Generally, the donor must be between 18 and 65 years old.</li>
+            <li>The donor must meet the minimum weight requirement for the donation type.</li>
+            <li>The donor should be in good general health.</li>
+            <li>Haemoglobin level must meet the required medical standard.</li>
+            <li>The donor must pass the medical screening at the blood centre.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>Who Should Wait Before Donating?</h3>
+
+        <ul>
+            <li>People who currently have fever or an active infection.</li>
+            <li>People who are feeling unwell.</li>
+            <li>People who are pregnant or have recently given birth.</li>
+            <li>People who have recently undergone surgery or certain medical treatments.</li>
+            <li>People advised to postpone donation by a healthcare professional.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>Before Blood Donation</h3>
+
+        <ul>
+            <li>Eat a healthy meal.</li>
+            <li>Drink enough water.</li>
+            <li>Get adequate rest.</li>
+            <li>Carry an accepted identity document.</li>
+            <li>Answer all medical screening questions honestly.</li>
+        </ul>
+    </div>
+
+    <div class="note">
+        <strong>Important Medical Note:</strong>
+        These are general educational guidelines. Final eligibility
+        depends on medical screening by authorised blood-centre staff.
+        People under 18 must not donate blood.
+    </div>
+
+    <div class="navigation">
+        <button onclick="location.href='page4.html'">
+            ← Back
+        </button>
+
+        <button onclick="location.href='page6.html'">
+            Next →
+        </button>
+    </div>
+
+</div>
+
+<footer>
+    Blood Donor Finder | Save Lives, Donate Blood
+</footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Donor Registration</title>
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff5f5;
+    margin: 0;
+    color: #333;
+}
+
+header, footer {
+    background: #c62828;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 25px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+h2 { color: #c62828; text-align: center; }
+
+label {
+    display: block;
+    margin-top: 14px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 7px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    background: #c62828;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover { background: #8e0000; }
+
+.register-btn {
+    width: 100%;
+    margin-top: 22px;
+    font-size: 16px;
+}
+
+#message {
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.note {
+    background: #fff3cd;
+    padding: 12px;
+    border-radius: 6px;
+    line-height: 1.5;
+    margin-top: 18px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Blood Donor Finder</h1>
+    <p>Donor Registration</p>
+</header>
+
+<div class="container">
+
+    <h2>Register as a Donor</h2>
+
+    <form id="donorForm">
+
+        <label for="name">Donor Name</label>
+        <input type="text" id="name" required
+               placeholder="Enter donor name">
+
+        <label for="age">Age</label>
+        <input type="number" id="age" min="18" max="65"
+               required placeholder="Enter age">
+
+        <label for="gender">Gender</label>
+        <select id="gender" required>
+            <option value="">Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+
+        <label for="blood">Blood Group</label>
+        <select id="blood" required>
+            <option value="">Select Blood Group</option>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>O+</option>
+            <option>O-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+        </select>
+
+        <label for="district">District</label>
+        <select id="district" required>
+            <option value="">Select District</option>
+            <option>Chennai</option>
+            <option>Coimbatore</option>
+            <option>Madurai</option>
+            <option>Salem</option>
+            <option>Tiruchirappalli</option>
+            <option>Tirunelveli</option>
+            <option>Thanjavur</option>
+            <option>Vellore</option>
+            <option>Thoothukudi</option>
+            <option>Theni</option>
+            <option>Erode</option>
+            <option>Dharmapuri</option>
+            <option>Villupuram</option>
+            <option>Tiruppur</option>
+            <option>Cuddalore</option>
+        </select>
+
+        <button type="submit" class="register-btn">
+            Register Donor
+        </button>
+
+    </form>
+
+    <p id="message"></p>
+
+    <div class="note">
+        This is a student project demonstration. Details are saved
+        only in this browser. Use fictional details for testing.
+        Actual donor registration requires secure handling of data,
+        donor consent and medical screening by an authorised centre.
+    </div>
+
+    <div class="navigation">
+        <button type="button" onclick="location.href='page5.html'">
+            ← Back
+        </button>
+
+        <button type="button" onclick="location.href='page7.html'">
+            View Donors →
+        </button>
+    </div>
+
+</div>
+
+<footer>
+    Blood Donor Finder | Tamil Nadu
+</footer>
+
+<script>
+const STORAGE_KEY = "bloodDonorRecords";
+
+document.getElementById("donorForm").addEventListener("submit",
+function(event) {
+    event.preventDefault();
+
+    const age = Number(document.getElementById("age").value);
+
+    if (age < 18 || age > 65) {
+        document.getElementById("message").style.color = "red";
+        document.getElementById("message").textContent =
+            "Age must be between 18 and 65 for this demo.";
+        return;
+    }
+
+    let donors = [];
+
+    try {
+        donors = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
+    } catch (error) {
+        donors = [];
+    }
+
+    const donor = {
+        id: "BD-" + Date.now(),
+        name: document.getElementById("name").value.trim(),
+        age: age,
+        gender: document.getElementById("gender").value,
+        blood: document.getElementById("blood").value,
+        district: document.getElementById("district").value,
+        status: "Registered"
+    };
+
+    donors.push(donor);
+
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(donors));
+
+    document.getElementById("message").style.color = "green";
+    document.getElementById("message").textContent =
+        "Registration successful! Donor ID: " + donor.id +
+        ". Open Page 7 to view the registered donor.";
+
+    this.reset();
+});
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registered Donor Details</title>
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff5f5;
+    margin: 0;
+    color: #333;
+}
+
+header, footer {
+    background: #c62828;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 850px;
+    margin: 25px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+h2 { color: #c62828; }
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    background: #c62828;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover { background: #8e0000; }
+
+.donor-card {
+    background: #fffafa;
+    border-left: 5px solid #c62828;
+    padding: 17px;
+    margin: 15px 0;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ddd;
+}
+
+.donor-card h3 { color: #c62828; }
+
+.status {
+    display: inline-block;
+    background: #d4edda;
+    color: #155724;
+    padding: 7px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#results { margin-top: 20px; }
+
+.note {
+    background: #fff3cd;
+    padding: 12px;
+    border-radius: 6px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Blood Donor Finder</h1>
+    <p>Registered Donor Details</p>
+</header>
+
+<div class="container">
+
+    <h2>Search Registered Donors</h2>
+
+    <label for="blood">Select Blood Group</label>
+    <select id="blood">
+        <option value="">All Blood Groups</option>
+        <option>A+</option>
+        <option>A-</option>
+        <option>B+</option>
+        <option>B-</option>
+        <option>O+</option>
+        <option>O-</option>
+        <option>AB+</option>
+        <option>AB-</option>
+    </select>
+
+    <label for="district">Select District</label>
+    <select id="district">
+        <option value="">All Districts</option>
+        <option>Chennai</option>
+        <option>Coimbatore</option>
+        <option>Madurai</option>
+        <option>Salem</option>
+        <option>Tiruchirappalli</option>
+        <option>Tirunelveli</option>
+        <option>Thanjavur</option>
+        <option>Vellore</option>
+        <option>Thoothukudi</option>
+        <option>Theni</option>
+        <option>Erode</option>
+        <option>Dharmapuri</option>
+        <option>Villupuram</option>
+        <option>Tiruppur</option>
+        <option>Cuddalore</option>
+    </select>
+
+    <button onclick="searchDonors()">Search Donors</button>
+    <button onclick="showAllDonors()">Show All</button>
+
+    <div id="results"></div>
+
+    <div class="note">
+        <strong>Important:</strong> These are locally stored demo
+        registrations only. A Registered status does not mean that
+        the person is medically eligible or currently available to
+        donate. Actual donor availability must be confirmed through
+        a secure, verified system.
+    </div>
+
+    <div class="navigation">
+        <button onclick="location.href='page6.html'">
+            ← Back
+        </button>
+
+        <button onclick="location.href='page8.html'">
+            Next →
+        </button>
+    </div>
+
+</div>
+
+<footer>
+    Blood Donor Finder | Tamil Nadu
+</footer>
+
+<script>
+const STORAGE_KEY = "bloodDonorRecords";
+
+function getDonors() {
+    try {
+        return JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
+    } catch (error) {
+        return [];
+    }
+}
+
+function displayDonors(donors) {
+
+    const results = document.getElementById("results");
+    results.innerHTML = "";
+
+    if (donors.length === 0) {
+        results.innerHTML =
+            "<p>No registered donors found. Please register a donor on Page 6 first.</p>";
+        return;
+    }
+
+    const heading = document.createElement("h2");
+    heading.textContent = "Registered Donors: " + donors.length;
+    results.appendChild(heading);
+
+    donors.forEach(function(donor) {
+
+        const card = document.createElement("div");
+        card.className = "donor-card";
+
+        const name = document.createElement("h3");
+        name.textContent = donor.name;
+
+        const id = document.createElement("p");
+        id.textContent = "Donor ID: " + donor.id;
+
+        const age = document.createElement("p");
+        age.textContent = "Age: " + donor.age;
+
+        const gender = document.createElement("p");
+        gender.textContent = "Gender: " + donor.gender;
+
+        const blood = document.createElement("p");
+        blood.textContent = "Blood Group: " + donor.blood;
+
+        const district = document.createElement("p");
+        district.textContent = "District: " + donor.district;
+
+        const status = document.createElement("span");
+        status.className = "status";
+        status.textContent = donor.status;
+
+        card.appendChild(name);
+        card.appendChild(id);
+        card.appendChild(age);
+        card.appendChild(gender);
+        card.appendChild(blood);
+        card.appendChild(district);
+        card.appendChild(status);
+
+        results.appendChild(card);
+    });
+}
+
+function searchDonors() {
+
+    const blood = document.getElementById("blood").value;
+    const district = document.getElementById("district").value;
+
+    const filtered = getDonors().filter(function(donor) {
+
+        const bloodMatch =
+            blood === "" || donor.blood === blood;
+
+        const districtMatch =
+            district === "" || donor.district === district;
+
+        return bloodMatch && districtMatch;
+    });
+
+    displayDonors(filtered);
+}
+
+function showAllDonors() {
+    document.getElementById("blood").value = "";
+    document.getElementById("district").value = "";
+    displayDonors(getDonors());
+}
+
+// Display registered donors when Page 7 opens
+displayDonors(getDonors());
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blood Request</title>
+<style>
+body {
+    font-family: Arial;
+    background: #fff0f0;
+    margin: 0;
+    padding: 25px;
+}
+.container {
+    max-width: 550px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #ccc;
+}
+h1 { color: #c62828; text-align: center; }
+label { display: block; margin-top: 12px; font-weight: bold; }
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+button {
+    background: #c62828;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    margin-top: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.nav { display: flex; justify-content: space-between; }
+#message { color: green; font-weight: bold; }
+</style>
+</head>
+<body>
+
+<div class="container">
+<h1>Blood Request Form</h1>
+
+<form id="requestForm">
+<label>Patient Name</label>
+<input type="text" id="patientName" required>
+
+<label>Blood Group</label>
+<select id="bloodGroup" required>
+<option value="">Select Blood Group</option>
+<option>A+</option><option>A-</option>
+<option>B+</option><option>B-</option>
+<option>O+</option><option>O-</option>
+<option>AB+</option><option>AB-</option>
+</select>
+
+<label>Units Required</label>
+<input type="number" id="units" min="1" max="10" required>
+
+<label>District</label>
+<select id="district" required>
+<option value="">Select District</option>
+<option>Chennai</option>
+<option>Coimbatore</option>
+<option>Madurai</option>
+<option>Salem</option>
+<option>Trichy</option>
+<option>Thanjavur</option>
+<option>Tirunelveli</option>
+<option>Erode</option>
+<option>Vellore</option>
+<option>Dindigul</option>
+<option>Theni</option>
+<option>Karur</option>
+<option>Namakkal</option>
+<option>Thoothukudi</option>
+<option>Kanyakumari</option>
+</select>
+
+<label>Hospital Name</label>
+<input type="text" id="hospital" required>
+
+<label>Priority</label>
+<select id="priority" required>
+<option value="Normal">Normal</option>
+<option value="Urgent">Urgent</option>
+</select>
+
+<label>Required Date</label>
+<input type="date" id="requiredDate" required>
+
+<button type="submit">Submit Blood Request</button>
+</form>
+
+<p id="message"></p>
+
+<div class="nav">
+<button onclick="location.href='page7.html'">Back</button>
+<button onclick="location.href='page9.html'">View Requests</button>
+</div>
+
+<p><small>Demo only: requests are saved in this browser. This is not a real blood bank service.</small></p>
+</div>
+
+<script>
+document.getElementById("requestForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const request = {
+        id: "BR-" + Date.now(),
+        patientName: document.getElementById("patientName").value.trim(),
+        bloodGroup: document.getElementById("bloodGroup").value,
+        units: document.getElementById("units").value,
+        district: document.getElementById("district").value,
+        hospital: document.getElementById("hospital").value.trim(),
+        priority: document.getElementById("priority").value,
+        requiredDate: document.getElementById("requiredDate").value,
+        status: "Pending"
+    };
+
+    const requests = JSON.parse(localStorage.getItem("bloodRequestRecords") || "[]");
+    requests.push(request);
+    localStorage.setItem("bloodRequestRecords", JSON.stringify(requests));
+
+    document.getElementById("message").textContent =
+        "Request submitted! Your Request ID is " + request.id;
+
+    this.reset();
+});
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blood Request Details</title>
+<style>
+body {
+    font-family: Arial;
+    background: #fff0f0;
+    margin: 0;
+    padding: 25px;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+}
+h1 {
+    color: #c62828;
+    text-align: center;
+}
+.request {
+    background: #fffafa;
+    border: 1px solid #e0a0a0;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+.request h3 { color: #c62828; }
+.status {
+    color: #b36b00;
+    font-weight: bold;
+}
+button {
+    background: #c62828;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#empty { text-align: center; color: #777; }
+</style>
+</head>
+<body>
+
+<div class="container">
+<h1>All Blood Request Details</h1>
+<h3 id="total">Total Requests: 0</h3>
+
+<div id="requestList"></div>
+
+<div style="text-align:center;">
+<button onclick="location.href='page8.html'">Back to Request Form</button>
+<button onclick="location.href='page10.html'">Next</button>
+</div>
+
+<p><small>Demo records are stored only in this browser. Pending does not mean blood is available or that a request has been fulfilled.</small></p>
+</div>
+
+<script>
+function displayRequests() {
+    const requests = JSON.parse(localStorage.getItem("bloodRequestRecords") || "[]");
+    const list = document.getElementById("requestList");
+
+    document.getElementById("total").textContent =
+        "Total Requests: " + requests.length;
+
+    list.innerHTML = "";
+
+    if (requests.length === 0) {
+        list.innerHTML = "<p id='empty'>No blood requests found. Submit a request on Page 8 first.</p>";
+        return;
+    }
+
+    requests.forEach(function(r) {
+        const card = document.createElement("div");
+        card.className = "request";
+
+        const heading = document.createElement("h3");
+        heading.textContent = "Patient: " + r.patientName;
+        card.appendChild(heading);
+
+        const details = [
+            "Request ID: " + r.id,
+            "Blood Group: " + r.bloodGroup,
+            "Units Required: " + r.units,
+            "District: " + r.district,
+            "Hospital: " + r.hospital,
+            "Required Date: " + r.requiredDate,
+            "Priority: " + r.priority
+        ];
+
+        details.forEach(function(item) {
+            const p = document.createElement("p");
+            p.textContent = item;
+            card.appendChild(p);
+        });
+
+        const status = document.createElement("p");
+        status.className = "status";
+        status.textContent = "Request Status: " + r.status;
+        card.appendChild(status);
+
+        list.appendChild(card);
+    });
+}
+
+displayRequests();
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thank You - Blood Donor Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #fff0f0, #ffe0e0);
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background: white;
+            width: 90%;
+            max-width: 600px;
+            padding: 40px 25px;
+            text-align: center;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(150, 0, 0, 0.15);
+            border-top: 8px solid #c62828;
+        }
+
+        .heart {
+            font-size: 75px;
+            color: #c62828;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            color: #c62828;
+            font-size: 38px;
+            margin: 10px;
+        }
+
+        h2 {
+            color: #444;
+            font-size: 22px;
+        }
+
+        p {
+            color: #555;
+            font-size: 17px;
+            line-height: 1.7;
+        }
+
+        .message {
+            background: #fff0f0;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .quote {
+            color: #c62828;
+            font-weight: bold;
+            font-size: 19px;
+        }
+
+        button {
+            background: #c62828;
+            color: white;
+            border: none;
+            padding: 13px 25px;
+            border-radius: 7px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px 5px;
+        }
+
+        button:hover {
+            background: #8e0000;
+        }
+
+        footer {
+            margin-top: 25px;
+            color: #888;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="heart">♥</div>
+
+    <h1>THANK YOU!</h1>
+
+    <h2>Blood Donor Finder</h2>
+
+    <div class="message">
+        <p>
+            Thank you for visiting our Blood Donor Finder website.
+            We aim to connect people who need blood with registered
+            donors and blood banks.
+        </p>
+    </div>
+
+    <p class="quote">
+        "Donate Blood, Save Lives!"
+    </p>
+
+    <p>
+        Your support can make a difference.
+        Every drop of blood is precious.
+    </p>
+
+    <button onclick="location.href='index.html'">
+        Back to Home
+    </button>
+
+    <button onclick="location.href='page9.html'">
+        View Blood Requests
+    </button>
+
+    <footer>
+        © 2026 Blood Donor Finder | Tamil Nadu
+    </footer>
+
+</div>
+
+</body>
+</html>
